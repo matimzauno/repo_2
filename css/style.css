@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+#contacto img{
+    width: 10px;
+}
+.img-logo{
+ width: 50%;
+}
+.bg-gradiant{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(53,117,158,0.7710434515603116) 58%, rgba(0,212,255,1) 100%);
+}
+.img-object{
+  width: 300px; 
+  height: 300px;
+  object-fit: cover;
+}
+.img-object-testimonios{
+    width: 80px; 
+    height: 80px;
+    border-radius: 50px;
+}
+.img-iconos-footer{
+    width: 25px;
+}
+.img-carousel-tours{
+    height: 200px;
+}
