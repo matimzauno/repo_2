@@ -8,28 +8,29 @@
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
      <!-- css propio -->
      <link rel="stylesheet" href="/css/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
      <title>Tours - Delpico - Traslados en Mendoza</title>
 </head>
 
 <body>
-    <div class="bg-secondary p-1 text-center text-white d-flex justify-content-around" id="contacto">
+    <div class="bg-secondary text-center text-white d-flex justify-content-around py-1 align-items-center" id="contacto">
         <div class="d-flex">
           <img src="/images/iconos/telefono.png" alt="Icono telefono">     
-          <p>0800-333-4455</p>
+          <p class="">0800-333-4455</p>
         </div>
         <div class="d-flex">
           <img src="/images/iconos/email.png" alt="Icono email" >     
-          <p>hola@delpicotraslados.com.ar</p>
+          <p class="py-auto">hola@delpicotraslados.com.ar</p>
         </div>
-        <div class="">
+        <div>
           <a href="facebook.com" target="_blank"><img src="/images/iconos/facebook.png"  alt="Icono Facebook"></a>
           <a href="facebook.com" target="_blank"><img src="/images/iconos/instagram.png" alt="Icono instagram"></a>
           <a href="facebook.com" target="_blank"><img src="/images/iconos/twitter.png" alt="Icono Twitter"></a>
       </div>
-      </div>
+    </div>
 
     <!-- Inicia Nav -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top  fs-4">
         <div class="container-fluid">
             <a class="navbar-brand" href="/index.html">
                 <img src="/images/logo1.png" alt="Logo Delpico" class="img-logo">
@@ -40,27 +41,27 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link active fs-2" aria-current="page" href="/index.html" >Delpico</a>
+                <a class="nav-link active" aria-current="page" href="/index.html" >Delpico</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-2" href="/pages/tours.html" >Tours</a>
+                <a class="nav-link" href="/pages/tours.html" >Tours</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle fs-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Traslados
                 </a>
-                <ul class="dropdown-menu fs-2" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item fs-3" href="/pages/traslados.html">Traslados Corporativos</a></li>
-                  <li><a class="dropdown-item fs-3" href="#">Traslados VIP</a></li>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/pages/traslados.html">Traslados Corporativos</a></li>
+                  <li><a class="dropdown-item" href="#">Traslados VIP</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item fs-3" href="#">Servicios a Medida</a></li>
+                  <li><a class="dropdown-item" href="#">Servicios a Medida</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-2" href="/pages/eventos.html" >Eventos</a>
+                <a class="nav-link" href="/pages/eventos.html" >Eventos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-2" href="/pages/nosotros.html" >Nosotros</a>
+                <a class="nav-link" href="/pages/nosotros.html" >Nosotros</a>
               </li>
             </ul>
           </div>
@@ -141,18 +142,18 @@
   </div>
 
 <!-- Descuento especial -->
-<div class="card p-5 w-50 mx-auto my-5">
+<div class="card p-5 w-50 mx-auto my-5 ">
     <div class="card-header bg-dark text-white text-center">
       Descuento Especial
     </div>
     <div class="card-body">
       <h5 class="card-title">Contratando por la web</h5>
       <p class="card-text">Si contratas cualquiera de nuestros servicios por nuestra web, accede a un 20% OFF!</p>
-      <a href="#" class="btn btn-primary">Contratar</a>
+      <a href="#" class="btn btn-primary scale">Contratar</a>
     </div>
   </div>
 <!-- Tours por departamentos -->
-<div class="container-fluid">
+<div class="container-fluid animate__animated animate__bounceInLeft">
     <div class="row p-5">
         <h2>Tours por Departamentos</h2>
         <div class="col-sm-12 col-md-6">
@@ -171,7 +172,7 @@
             </ul>
         </div>  
     </div>
-    <div class="row bg-light p-5 text-center">
+    <div class="row bg-light p-5 text-center animate__animated animate__bounceInRight">
             <div class="col-sm-12 col-md-4">
                 <img src="/images/citytour.jpeg" alt="Zonas 1" class="img-object">
                 <h4>Lujan de Cuyo</h4>
@@ -229,56 +230,56 @@
     </main>
     <!-- Footer -->
     <footer class="container-fluid bg-dark text-center">
-        <section>
-          <div class="row flex-sm-column-reverse flex-md-row">
-            <div class="col-sm-12 col-md-4 p-5">
-              <img src="/images/logo1.png" alt="Logo" class="img-logo">
-      
-            </div>
-            <div class="col-sm-12 col-md-4 p-5 text-white">
-              <div>
-                    <h4 class="fs-3">¡Contactanos!</h4>
-                </div>
-                <div class="d-flex fs-4">
-                  <a href="https://api.whatsapp.com/send?phone=542616949732&text=Hola!%20Me%20contacto%20desde%20la%20web">
-                  <img src="/images/iconos/whatsapp.png" alt="Whatsapp" class="img-iconos-footer px-2">
-                    </a>     
-                      <p>+54 9 2616 949732261</p>
-                </div>
-                <div class="d-flex fs-4">
-                  <a href="tel:08103334455">
-                    <img src="/images/iconos/telefono.png" alt="Telefono"  class="img-iconos-footer px-2">
-                  </a>
-                      <p>08103334455</p>
-                </div>
-                <div class="d-flex fs-4">
-                  <a href="mailto:hola@delpicotraslados.com.ar" target="_blank">
-                  <img src="/images/iconos/email.png" alt="Icono email" class="img-iconos-footer px-2"></a>
-                      <p>hola@delpicotraslados.com.ar</p>
-                </div>
-              </div>
-      
-              <div class="col-sm-12 col-md-4 p-5 text-center text-white">
-                <div>
-                  <h4>Nuestras Redes</h4>
-                </div>
-                <div>
-                  <a href="facebook.com" target="_blank">
-                    <img src="/images/iconos/facebook.png" alt="Icono Facebook" class="img-iconos-footer">
-                  </a>
-                  <a href="twitter.com" target="_blank">
-                    <img src="/images/iconos/twitter.png" alt="Icono Twitter" class="img-iconos-footer">
-                  </a>
-                  <a href="instagram.com" target="_blank">
-                       <img src="/images/iconos/instagram.png" alt="Icono Instagram" class="img-iconos-footer">
-                  </a>
-                </div>
-              </div>
-                
-              </div>        
-            </div>
+      <section>
+        <div class="row">
+          <div class="col-sm-12 col-md-4 p-5">
+            <img src="/images/logo1.png" alt="Logo" class="img-logo-f">
+    
           </div>
-        </section>
+          <div class="col-sm-12 col-md-4 p-5 text-white">
+            <div>
+                  <h4 class="fs-5">¡Contactanos!</h4>
+              </div>
+              <div class="d-flex fs-5">
+                <a href="https://api.whatsapp.com/send?phone=542616949732&text=Hola!%20Me%20contacto%20desde%20la%20web">
+                <img src="/images/iconos/whatsapp.png" alt="Whatsapp" class="img-iconos-footer px-2">
+                  </a>     
+                    <p>+54 9 2616 949732261</p>
+              </div>
+              <div class="d-flex fs-5">
+                <a href="tel:08103334455">
+                  <img src="/images/iconos/telefono.png" alt="Telefono"  class="img-iconos-footer px-2">
+                </a>
+                    <p>08103334455</p>
+              </div>
+              <div class="d-flex fs-5">
+                <a href="mailto:hola@delpicotraslados.com.ar" target="_blank">
+                <img src="/images/iconos/email.png" alt="Icono email" class="img-iconos-footer px-2"></a>
+                    <p>hola@delpicotraslados.com.ar</p>
+              </div>
+            </div>
+    
+            <div class="col-sm-12 col-md-4 p-5 text-center text-white">
+              <div>
+                <h4>Nuestras Redes</h4>
+              </div>
+              <div>
+                <a href="facebook.com" target="_blank">
+                  <img src="/images/iconos/facebook.png" alt="Icono Facebook" class="img-iconos-footer scale">
+                </a>
+                <a href="twitter.com" target="_blank">
+                  <img src="/images/iconos/twitter.png" alt="Icono Twitter" class="img-iconos-footer scale">
+                </a>
+                <a href="instagram.com" target="_blank">
+                     <img src="/images/iconos/instagram.png" alt="Icono Instagram" class="img-iconos-footer scale">
+                </a>
+              </div>
+            </div>
+              
+            </div>        
+          </div>
+        </div>
+      </section>
       
        </footer>
       <!-- Option 1: Bootstrap Bundle with Popper -->

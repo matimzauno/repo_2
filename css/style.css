@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 
+
 #contacto img{
-    width: 10px;
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
 }
 .img-logo{
- width: 50%;
+ width: 20%;
 }
+.img-logo-f{
+    width: 50%;
+   }
 .bg-gradiant{
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(53,117,158,0.7710434515603116) 58%, rgba(0,212,255,1) 100%);
@@ -55,7 +61,15 @@
 }
 .animateDiv{
     animation-name: anime;
-    animation-iteration-count: ;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    animation-delay: 0;
 }
 
-/* Seguir desde los 55 minutos aprox */
+@keyframes textAlpha{
+    from{
+        opacity: 1;
+    }
+}
+/* Seguir desde 01 hora y 5 minutos aprox */
